@@ -48,5 +48,3 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
-NFS网络共享
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES nfs luci-app-nfs"
