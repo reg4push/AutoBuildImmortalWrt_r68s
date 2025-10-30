@@ -64,18 +64,8 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 
 # NFS网络共享
 PACKAGES="$PACKAGES luci-app-nfs"
-#ZeroTier内网穿透
-PACKAGES="$PACKAGES luci-app-zerotier"
 #MosDNS转发器
 PACKAGES="$PACKAGES luci-app-mosdns"
-#SmartDNS
-PACKAGES="$PACKAGES luci-app-smartdns"
-#微信推送
-PACKAGES="$PACKAGES luci-app-serverchan"
-#全能推送
-PACKAGES="$PACKAGES luci-app-pushbot"
-#文件传输（可web安装ipk包）
-PACKAGES="$PACKAGES luci-app-filetransfer"
 
 # 代理工具
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
