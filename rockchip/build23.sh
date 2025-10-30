@@ -72,8 +72,6 @@ PACKAGES="$PACKAGES luci-app-nfs"
 PACKAGES="$PACKAGES luci-app-zerotier"
 #MosDNS转发器
 PACKAGES="$PACKAGES luci-app-mosdns"
-#SmartDNS
-PACKAGES="$PACKAGES luci-app-smartdns"
 #微信推送
 PACKAGES="$PACKAGES luci-app-serverchan"
 #全能推送
