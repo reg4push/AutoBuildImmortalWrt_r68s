@@ -63,7 +63,7 @@ PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
 PACKAGES="$PACKAGES luci-app-nfs"
-PACKAGES="$PACKAGES luci-app-serverchan"
+
 
 # 代理工具
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
