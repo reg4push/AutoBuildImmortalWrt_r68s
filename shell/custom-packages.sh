@@ -48,3 +48,17 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier luci-app-easytier"
 # 统一文件共享
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2 luci-app-unishare"
+# NFS网络共享
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES nfs luci-app-nfs"
+#ZeroTier内网穿透
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-zerotier"
+#MosDNS转发器
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES mosdns luci-app-mosdns"
+#SmartDNS
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES smartdns luci-app-smartdns"
+#微信推送
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES serverchan luci-app-serverchan"
+#全能推送
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES pushbot luci-app-pushbot"
+#文件传输（可web安装ipk包）
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES filetransfer luci-app-filetransfer"
