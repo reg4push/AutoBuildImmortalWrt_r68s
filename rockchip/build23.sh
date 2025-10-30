@@ -68,8 +68,6 @@ PACKAGES="$PACKAGES luci-app-openclash"
 
 # NFS网络共享
 PACKAGES="$PACKAGES luci-app-nfs"
-#ZeroTier内网穿透
-PACKAGES="$PACKAGES luci-app-zerotier"
 #MosDNS转发器
 PACKAGES="$PACKAGES luci-app-mosdns"
 #微信推送
