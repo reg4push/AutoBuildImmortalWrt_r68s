@@ -64,8 +64,6 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 
 # NFS网络共享
 PACKAGES="$PACKAGES luci-app-nfs"
-#MosDNS转发器
-PACKAGES="$PACKAGES luci-app-mosdns"
 
 # 代理工具
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
