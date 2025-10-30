@@ -61,9 +61,26 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+
 # 代理工具
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
+
+# NFS网络共享
+PACKAGES="$PACKAGES luci-app-nfs"
+#ZeroTier内网穿透
+PACKAGES="$PACKAGES luci-app-zerotier"
+#MosDNS转发器
+PACKAGES="$PACKAGES luci-app-mosdns"
+#SmartDNS
+PACKAGES="$PACKAGES luci-app-smartdns"
+#微信推送
+PACKAGES="$PACKAGES luci-app-serverchan"
+#全能推送
+PACKAGES="$PACKAGES luci-app-pushbot"
+#文件传输（可web安装ipk包）
+PACKAGES="$PACKAGES luci-app-filetransfer"
+
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
     PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
