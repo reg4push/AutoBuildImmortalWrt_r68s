@@ -64,6 +64,7 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 
 # NFS网络共享
 PACKAGES="$PACKAGES luci-app-nfs"
+
 #微信推送
 PACKAGES="$PACKAGES luci-app-serverchan"
 
