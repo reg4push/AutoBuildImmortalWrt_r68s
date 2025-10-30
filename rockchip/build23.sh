@@ -63,19 +63,19 @@ PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
 # NFS网络共享
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES nfs luci-app-nfs"
+PACKAGES="$PACKAGES luci-app-nfs"
 #ZeroTier内网穿透
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-zerotier"
+PACKAGES="$PACKAGES luci-app-zerotier"
 #MosDNS转发器
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES mosdns luci-app-mosdns"
+PACKAGES="$PACKAGES luci-app-mosdns"
 #SmartDNS
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES smartdns luci-app-smartdns"
+PACKAGES="$PACKAGES luci-app-smartdns"
 #微信推送
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES serverchan luci-app-serverchan"
+PACKAGES="$PACKAGES luci-app-serverchan"
 #全能推送
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES pushbot luci-app-pushbot"
+PACKAGES="$PACKAGES luci-app-pushbot"
 #文件传输（可web安装ipk包）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES filetransfer luci-app-filetransfer"
+PACKAGES="$PACKAGES luci-app-filetransfer"
 
 # 代理工具
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
