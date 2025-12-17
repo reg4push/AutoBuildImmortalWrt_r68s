@@ -62,7 +62,6 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-app-smartdns"
-PACKAGES="$PACKAGES luci-app-pushbot"
 PACKAGES="$PACKAGES luci-app-nfs"
 PACKAGES="$PACKAGES luci-app-zerotier"
 
